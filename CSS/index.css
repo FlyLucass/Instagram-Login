@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+:hoot {}
+
+body {
+    background-color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#login {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.login {
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+    align-items: center;
+    width: 22rem;
+    height: 27rem;
+    border: 0.1px solid lightgray;
+}
+
+.login>img {
+    width: 12rem;
+    height: 4rem;
+    margin-top: 11%;
+    margin-bottom: 10%;
+
+}
+
+.login>button {
+    background-color: #5aa7ff;
+    color: white;
+    width: 17rem;
+    height: 2.1rem;
+    margin-top: 2%;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.login>button::placeholder {
+    font-size: medium;
+    text-align: justify;
+
+
+}
+
+.login>input {
+    width: 17rem;
+    height: 2.2rem;
+    background-color: whitesmoke;
+    text-align: left;
+    font-size: smaller;
+    border: 0.1px solid lightgray;
+}
+
+.login>input:focus {
+    outline: none;
+    border: 0.1px solid gray;
+    padding-left: 2%;
+    padding-right: -2%;
+
+}
+
+
+.login>input::placeholder {
+    font-size: 0.73rem;
+    padding-left: 2%;
+}
+
+
+#loginfb {
+    margin-bottom: 3%;
+}
+
+#loginfb>img {
+    height: 0.9rem;
+    width: 1.0rem;
+    margin-right: 0.5rem
+}
+
+#loginfb>a {
+    font-size: 0.9rem;
+    color: #3b5998;
+}
+
+#orlogin {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 8%;
+
+}
+
+#orlogin>p {
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 0.77rem;
+    font-weight: 545;
+}
+
+#orlogin>span {
+    height: 0.1rem;
+    width: 7.8rem;
+    background-color: lightgray;
+    align-self: center;
+}
+
+#nocont {
+    background-color: white;
+    position: relative;
+    width: 22rem;
+    height: 4rem;
+    border-bottom: 10rem;
+    text-align: center;
+    align-content: center;
+    border: 0.1px solid lightgray;
+
+}
+
+#nocont>span {
+    font-size: 0.9rem;
+    color: black;
+}
+
+
+#nocont>a {
+    margin-left: 0.2rem;
+    color: #0866ff;
+    font-size: 0.9rem;
+}
+
+
+#storeapp {
+    position: relative;
+    flex-direction: row;
+}
+
+aside {
+    display: none;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+
+
+}
+
+#links>div,
+span {
+    font-size: small;
+    justify-content: space-between;
+    color: gray;
+
+}
+
+#tonav {
+    word-spacing: 0.5rem;
+}
