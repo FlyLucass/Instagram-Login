@@ -16,15 +16,16 @@ body {
     grid-template-areas:
         "aside main"
         "footer footer";
-    row-gap: 10%;
+    row-gap: 2rem;
     align-items: center;
-    margin-inline: 23rem;
+
 
 }
 
 main {
     grid-area: main;
     position: relative;
+    margin-right: 50%;
 
 
 }
@@ -170,6 +171,7 @@ main {
 
 aside {
     grid-area: aside;
+    margin-left: 45%;
 
 }
 
@@ -194,4 +196,8 @@ span {
 #tonav {
     word-spacing: 0.5rem;
 
+}
+
+#tonav>span {
+    word-spacing: 0.1rem;
 }
