@@ -11,9 +11,11 @@ body {
 }
 
 aside {
-    display: flex;
+    background-color: white;
     flex-direction: column;
-    position: relative;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
 
 }
 
@@ -133,6 +135,20 @@ nav {
     align-self: center;
 }
 
+#RtrtoLg {
+    background-color: whitesmoke;
+    position: relative;
+}
+
+#RtrtoLg>hr {
+    width: 24.4rem;
+    margin-bottom: 1%;
+    border: xx-small solid lightgray;
+}
+
+#RtrtoLg>a {
+    text-decoration: none;
+}
 
 #links {
     display: flex;
