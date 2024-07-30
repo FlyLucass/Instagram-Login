@@ -42,7 +42,7 @@ nav {
     flex-direction: column;
     position: relative;
     align-items: center;
-    margin-top: 4%;
+    margin-top: 3.1%;
 }
 
 #newlogin {
@@ -71,8 +71,19 @@ nav {
 
 }
 
+#newlogin>h4 {
+    font-size: 0.93rem;
+    margin-top: 1%;
+}
+
 #newlogin>p {
-    font-size: small;
+    font-size: smaller;
+    color: grey;
+    margin-left: 13%;
+    margin-right: 13%;
+    line-height: 1.1rem;
+
+
 
 }
 
@@ -91,9 +102,6 @@ nav {
 #newlogin>input:focus {
     outline: none;
     border-color: gray;
-    padding-left: 2%;
-
-
 
 }
 
@@ -104,6 +112,7 @@ nav {
     outline: none;
     border-color: gray;
     padding-left: 2%;
+    color: lightgrey;
 }
 
 #newlogin>button {
@@ -124,8 +133,9 @@ nav {
 #orlogin {
     display: flex;
     flex-direction: row;
-    margin-top: 5%;
-    margin-bottom: 8%;
+    margin-top: 6%;
+    margin-bottom: 3%;
+
 
 }
 
@@ -138,9 +148,9 @@ nav {
 
 #orlogin>span {
     height: 0.1rem;
-    width: 7.8rem;
+    width: 9rem;
     background-color: lightgray;
-
+    align-self: center
 }
 
 #newlogin>#rtrtologin {
