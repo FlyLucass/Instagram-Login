@@ -33,7 +33,7 @@ aside>div>img {
 }
 
 aside>hr {
-    border: xx-small solid lightgray;
+    border: small solid lightgray;
 
 }
 
@@ -62,12 +62,12 @@ nav {
 }
 
 #newlogin>figure {
-    margin-top: 5%;
+    margin-top: 5%
 }
 
 #newlogin>figure img {
     height: 6.1rem;
-    width: 6.1rem;
+    width: 7.7rem;
 
 }
 
@@ -168,9 +168,17 @@ nav {
     height: 100%;
     border: 0.1px solid lightgray;
     cursor: pointer;
+    color: black;
 
 
 }
+
+#rtrtologin>button:focus-visible {
+    color: #5aa7ff;
+    cursor: pointer;
+
+}
+
 
 
 #links {
