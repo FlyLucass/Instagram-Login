@@ -8,7 +8,7 @@
 body {
     background-color: white;
     position: relative;
-    margin-bottom: 2%;
+    margin-bottom: 3.4%;
 }
 
 aside {
@@ -33,7 +33,8 @@ aside>div>img {
 }
 
 aside>hr {
-    border: small solid lightgray;
+    border: 0.1px solid lightgray;
+    opacity: 0.4;
 
 }
 
@@ -55,7 +56,7 @@ nav {
     align-items: center;
     width: 24.5rem;
     height: 35rem;
-    border: 0.1px solid lightgray;
+    border: 0.1px solid lightgrey;
     border-radius: 0.25rem;
 
 
@@ -123,6 +124,7 @@ nav {
     margin-top: 2%;
     border: none;
     border-radius: 0.6rem;
+    opacity: 0.6;
 }
 
 #newlogin>button::placeholder {
@@ -173,10 +175,8 @@ nav {
 
 }
 
-#rtrtologin>button:focus-visible {
-    color: #5aa7ff;
-    cursor: pointer;
-
+#rtrtologin>button:hover {
+    opacity: 0.5;
 }
 
 
