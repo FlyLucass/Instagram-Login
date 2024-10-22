@@ -5,14 +5,23 @@
     font-family: arial;
 }
 
+:hoot {
+    --white: white;
+    --white_esmk: whitesmoke;
+    --gray: gray;
+    --lgray: lightgray;
+    --lgrey: lightgrey;
+    --black: black;
+}
+
 body {
-    background-color: white;
+    background-color: var(--white);
     position: relative;
     margin-bottom: 3.4%;
 }
 
 aside {
-    background-color: white;
+    background-color: var(--white);
     flex-direction: column;
     position: sticky;
     z-index: 1000;
@@ -33,7 +42,7 @@ aside>div>img {
 }
 
 aside>hr {
-    border: 0.1px solid lightgray;
+    border: 0.1px solid var(--lgray);
     opacity: 0.4;
 
 }
@@ -47,7 +56,7 @@ nav {
 }
 
 #newlogin {
-    background-color: white;
+    background-color: var(--white);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -56,7 +65,7 @@ nav {
     align-items: center;
     width: 24.5rem;
     height: 35rem;
-    border: 0.1px solid lightgrey;
+    border: 0.1px solid var(--lgrey);
     border-radius: 0.25rem;
 
 
@@ -91,34 +100,34 @@ nav {
 #newlogin>input {
     width: 19rem;
     height: 2.5rem;
-    background-color: whitesmoke;
+    background-color: var(--white_esmk);
     outline: none;
     text-align: left;
     border-radius: 0.3rem;
-    border: 0.1px solid lightgray;
+    border: 0.1px solid var(--lgray);
 
 
 }
 
 #newlogin>input:focus {
     outline: none;
-    border-color: gray;
+    border-color: var(--gray);
 
 }
 
 
 #newlogin>input::placeholder {
     font-size: 0.9rem;
-    background-color: whitesmoke;
+    background-color: var(--white_esmk);
     outline: none;
-    border-color: gray;
+    border-color: var(--gray);
     padding-left: 2%;
-    color: lightgrey;
+    color: var(--lgrey);
 }
 
 #newlogin>button {
     background-color: #5aa7ff;
-    color: white;
+    color: var(--white);
     width: 19rem;
     height: 2.1rem;
     margin-top: 2%;
@@ -151,14 +160,14 @@ nav {
 #orlogin>span {
     height: 0.1rem;
     width: 9rem;
-    background-color: lightgray;
-    align-self: center
+    background-color: var(--lgray);
+    align-self: center;
 }
 
 #NewAccount>p {
     font-size: 0.9rem;
     font-weight: 500;
-    color: black;
+    color: var(--black);
 }
 
 #NewAccount>p:hover {
@@ -177,12 +186,12 @@ nav {
 }
 
 #rtrtologin>button {
-    background-color: whitesmoke;
+    background-color: var(--white_esmk);
     width: 100%;
     height: 100%;
-    border: 0.1px solid lightgray;
+    border: 0.1px solid var(--lgray);
     cursor: pointer;
-    color: black;
+    color: var(--black);
 
 
 }
@@ -207,7 +216,7 @@ nav {
 span {
     font-size: small;
     justify-content: space-between;
-    color: gray;
+    color: var(--gray);
 
 }
 

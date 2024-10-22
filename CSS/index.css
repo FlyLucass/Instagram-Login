@@ -5,10 +5,15 @@
     font-family: arial;
 }
 
-:hoot {}
+:hoot {
+    --white: white;
+    --white_esmk: whitesmoke;
+    --gray: gray;
+    --lgray: lightgray;
+}
 
 body {
-    background-color: white;
+    background-color: var(--white);
     margin-bottom: 10%;
     margin-top: 3%;
     position: relative;
@@ -41,7 +46,7 @@ main {
 }
 
 .login {
-    background-color: white;
+    background-color: var(--white);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -50,7 +55,7 @@ main {
     align-items: center;
     width: 22rem;
     height: 27rem;
-    border: 0.1px solid lightgray;
+    border: 0.1px solid var(--lgray);
 }
 
 .login>img {
@@ -63,7 +68,7 @@ main {
 
 .login>button {
     background-color: #5aa7ff;
-    color: white;
+    color: var(--white);
     width: 17rem;
     height: 2.1rem;
     margin-top: 2%;
@@ -81,15 +86,15 @@ main {
 .login>input {
     width: 17rem;
     height: 2.2rem;
-    background-color: whitesmoke;
+    background-color: var(--white_esmk);
     text-align: left;
     font-size: smaller;
-    border: 0.1px solid lightgray;
+    border: 0.1px solid var(--lgray);
 }
 
 .login>input:focus {
     outline: none;
-    border: 0.1px solid gray;
+    border: 0.1px solid var(--gray);
     padding-left: 2%;
     padding-right: -2%;
 
@@ -135,19 +140,19 @@ main {
 #orlogin>span {
     height: 0.1rem;
     width: 7.8rem;
-    background-color: lightgray;
+    background-color: var(--lgray);
     align-self: center;
 }
 
 #nocont {
-    background-color: white;
+    background-color: var(--white);
     position: relative;
     width: 22rem;
     height: 4rem;
     border-bottom: 10rem;
     text-align: center;
     align-content: center;
-    border: 0.1px solid lightgray;
+    border: 0.1px solid var(--lgray);
 
 }
 
@@ -189,7 +194,7 @@ aside {
 span {
     font-size: small;
     justify-content: space-between;
-    color: gray;
+    color: var(--gray);
 
 }
 
