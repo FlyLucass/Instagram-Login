@@ -1,1 +1,26 @@
-instagram-login with interaction. starting projects for my portfolio, applying css and html as markup. 
+# Instagram Login Clone, com navegação.
+
+Este repositório contém uma reprodução da interface de login do Instagram, desenvolvida como parte de um exercício de aprendizado para prática de HTML5 e CSS3.
+
+## 📸 Visão Geral
+O projeto visa replicar a tela de login do Instagram utilizando HTML5 e CSS3. É um exercício para aplicar conceitos de design responsivo e boas práticas de estruturação de código.
+
+## 🚀 Funcionalidades
+
+- Interface de login com campos para nome de usuário e senha.
+- Opção para redefinição de senha com navegação para página de "newpass".
+- Design responsivo adaptado para diferentes tamanhos de tela.
+- Navegação para download 
+
+## 📂 Estrutura do Projeto
+
+Instagram-Login/ ├── index.html ├── newpass.html ├── CSS/ │ └── styles.css ├── Imagens/ │ └── (ícones e logotipos) └── README.md
+
+## 🖼️ Demonstração
+
+Aqui está uma captura de tela da interface:
+
+![Instagram Login img](./Imagens/tela login.png)
+![Instagram nova senha img](./Imagens/redefinir senha.png)
+
+## 💻 sigar as intruçoes do git hub para clone 
