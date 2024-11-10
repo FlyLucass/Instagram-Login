@@ -20,7 +20,7 @@ Instagram-Login/ ├── index.html ├── newpass.html ├── CSS/ │ 
 
 Aqui está uma captura de tela da interface:
 
-![Instagram Login img](./Imagens/telalogin.png)
-![Instagram nova senha img](./Imagens/redefinirsenha.png)
+[![Tela de Login](Imagens/instagram_login.png)](Imagens/instagram_login.png)
+
 
 ## 💻 sigar as intruçoes do git hub para clone 
