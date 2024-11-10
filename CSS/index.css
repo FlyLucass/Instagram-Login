@@ -30,7 +30,7 @@ body {
 main {
     grid-area: main;
     position: relative;
-    margin-right: 50%;
+    margin-right: 70%;
 
 
 }
@@ -176,7 +176,7 @@ main {
 
 aside {
     grid-area: aside;
-    margin-left: 45%;
+    margin-left: 55%;
 
 }
 
@@ -206,3 +206,46 @@ span {
 #tonav>span {
     word-spacing: 0.1rem;
 }
+
+/*
+
+@media (max-width:768px) {
+    main {
+        margin-right: 0%;
+    }
+
+    aside {
+        margin-left: 0%;
+    }
+}
+
+@media(min-width:769px) and (max-width:1024px) {
+    main {
+        margin-right: 20%;
+    }
+
+    aside {
+        margin-left: 15%;
+    }
+}
+
+@media(min-width:1025px) and (max-width:1440px) {
+    main {
+        margin-right: 40%;
+    }
+
+    aside {
+        margin-left: 40%;
+    }
+}
+
+@media(min-width: 1441px) {
+    main {
+        margin-right: 70%;
+    }
+
+    aside {
+        margin-left: 65%;
+    }
+}
+    \*
